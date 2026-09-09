@@ -7,9 +7,14 @@ cask "limen" do
   desc "Native macOS menu bar AWS credential switcher for IAM Identity Center"
   homepage "https://github.com/ranajoy-dutta/limen"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Limen.app"
+
+  postflight do
+    system_command "xattr",
+                   args: ["-cr", "#{appdir}/Limen.app"]
+  end
 
   zap trash: [
     "~/.aws/credentials",
