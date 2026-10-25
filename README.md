@@ -1,22 +1,44 @@
-# homebrew-tap
+# Homebrew Tap
 
-Personal Homebrew tap for Ranajoy Dutta's software.
+A collection of Homebrew formulae and casks for macOS applications and developer tools.
 
-## Installation
+## Available Packages
+
+### [Limen](https://github.com/ranajoy-dutta/limen)
+
+A native macOS menu bar application for switching AWS credentials through AWS IAM Identity Center.
+
+**Install**
 
 ```bash
 brew install --cask ranajoy-dutta/tap/limen
 ```
 
-Or tap manually:
+For features, setup instructions, and documentation, visit the [Limen repository](https://github.com/ranajoy-dutta/limen).
+
+## Installation
+
+Add this tap to Homebrew:
 
 ```bash
 brew tap ranajoy-dutta/tap
-brew install --cask limen
 ```
 
-## Available Casks
+## Updating
 
-| Cask | Description |
-| :--- | :--- |
-| **[limen](https://github.com/ranajoy-dutta/limen)** | Native macOS menu bar AWS credential switcher for IAM Identity Center |
+Update Homebrew metadata:
+
+```bash
+brew update
+```
+
+Upgrade Limen:
+
+```bash
+brew upgrade --cask limen
+```
+
+## About
+
+This tap distributes macOS applications and developer tools through Homebrew.
+
