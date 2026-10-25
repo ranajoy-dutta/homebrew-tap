@@ -1,6 +1,6 @@
 ﻿cask "limen@beta" do
-  version "0.3.0"
-  sha256 "b68267117648692fc239aecede4d403b3c637caf0d42230d06a63550c9ae7c09"
+  version "0.4.0-rc"
+  sha256 "8564c82367a710e54fa0d3517ad7501f3a6f41eb1850367397d6639dc626403f"
 
   url "https://github.com/ranajoy-dutta/limen/releases/download/v#{version}/Limen_#{version}_aarch64.dmg"
   name "Limen (Beta)"
