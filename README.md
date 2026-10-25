@@ -8,23 +8,13 @@ A collection of Homebrew formulae and casks for macOS applications and developer
 
 A native macOS menu bar application for switching AWS credentials through AWS IAM Identity Center.
 
-**Install (Stable)**
+**Install**
 
 ```bash
 brew install --cask ranajoy-dutta/tap/limen
 ```
 
 For features, setup instructions, and documentation, visit the [Limen repository](https://github.com/ranajoy-dutta/limen).
-
-### [Limen (Beta)](https://github.com/ranajoy-dutta/limen)
-
-Pre-release and Release Candidate builds for Limen.
-
-**Install (Beta / Pre-release)**
-
-```bash
-brew install --cask ranajoy-dutta/tap/limen@beta
-```
 
 ## Installation
 
